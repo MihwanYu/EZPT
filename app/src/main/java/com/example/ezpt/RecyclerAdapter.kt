@@ -1,5 +1,6 @@
 package com.example.ezpt
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -25,6 +26,12 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.Holder>() {
 
     inner class Holder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var inputData:user? = null
+        init {
+            itemView.contact_btn.setOnClickListener {
+                val intent = Intent(itemView.context, ChatActivity::class.java)
+                itemView.context.startActivity(intent)
+            }
+        }
         fun setData(data: user) {
 
             itemView.username_textview.text = data.username

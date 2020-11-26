@@ -12,7 +12,6 @@
         <activity android:name=".ProfileSetActivity"/>
         <activity android:name=".ChatActivity" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".MypageTrainerActivity" />
         <activity android:name=".SearchTraineeActivity" />
         <activity android:name=".ui.login.SearchTrainerActivity" />
         <activity android:name=".MainActivity" />

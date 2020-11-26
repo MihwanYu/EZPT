@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorSkyBlue">
+    android:background="@color/colorBackground">
 
     <TextView
         android:id="@+id/profileSetting"
@@ -13,6 +13,7 @@
         android:layout_marginTop="30dp"
         android:fontFamily="@font/shrikhand"
         android:text="@string/profile_setting"
+        android:textColor="@color/colorTitle"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,6 +37,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="User Name : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputEditText
@@ -64,6 +66,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="Phone Number : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <EditText
@@ -92,6 +95,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="User Type : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <RadioGroup
@@ -132,6 +136,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="Sex : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <RadioGroup
@@ -165,9 +170,11 @@
         android:id="@+id/done_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0C2340"
         android:fontFamily="@font/shrikhand"
         android:gravity="center_horizontal|center_vertical"
         android:text="Done"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -191,6 +198,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="Preferred \n Region : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <EditText
@@ -220,6 +228,7 @@
             android:layout_gravity="center_vertical"
             android:fontFamily="@font/shrikhand"
             android:text="Self\nDescription : "
+            android:textColor="@color/colorTitle"
             android:textSize="18sp" />
 
         <EditText

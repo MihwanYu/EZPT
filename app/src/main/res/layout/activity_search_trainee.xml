@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorSkyBlue"
+    android:background="@color/colorBackground"
     android:layout_height="match_parent">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/shrikhand"
         android:text="Search Trainee"
+        android:textColor="@color/colorTitle"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/trainee_recycler"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +24,10 @@
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0C2340"
+        android:fontFamily="@font/shrikhand"
         android:text="back"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

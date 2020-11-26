@@ -32,10 +32,10 @@ class SearchTraineeActivity : AppCompatActivity() {
             val nextIntent = Intent(this, MainActivity::class.java)
             startActivity(nextIntent)
         }
-        findViewById<Button>(R.id.contact_btn).setOnClickListener {
-            val nextIntent = Intent(this, ChatActivity::class.java)
-            startActivity(nextIntent)
-        }
+//        findViewById<Button>(R.id.contact_btn).setOnClickListener {
+//            val nextIntent = Intent(this, ChatActivity::class.java)
+//            startActivity(nextIntent)
+//        }
     }
 
     fun dataRW() {

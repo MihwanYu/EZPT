@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/shrikhand"
         android:text="@string/mypage"
+        android:textColor="@color/colorTitle"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +25,6 @@
         android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/border"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +38,7 @@
             android:layout_marginEnd="250dp"
             android:fontFamily="@font/shrikhand"
             android:text="My Profile"
+            android:textColor="@color/colorTitle"
             android:textSize="24sp" />
 
         <Space
@@ -62,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/shrikhand"
                     android:text="Email : "
+                    android:textColor="@color/colorTitle"
                     android:textSize="14sp" />
 
                 <TextView
@@ -80,7 +82,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/shrikhand"
-                    android:text="User Name : " />
+                    android:text="User Name : "
+                    android:textColor="@color/colorTitle" />
 
                 <TextView
                     android:id="@+id/profile_username"
@@ -97,9 +100,10 @@
                 <TextView
                     android:id="@+id/profile_region_title"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/shrikhand"
-                    android:text="Region : " />
+                    android:text="Region : "
+                    android:textColor="@color/colorTitle" />
 
                 <TextView
                     android:id="@+id/profile_region"
@@ -117,7 +121,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/shrikhand"
-                    android:text="Description : " />
+                    android:text="Description : "
+                    android:textColor="@color/colorTitle" />
 
                 <TextView
                     android:id="@+id/profile_description"
@@ -146,6 +151,7 @@
             android:layout_marginEnd="0dp"
             android:fontFamily="@font/shrikhand"
             android:text="My Partner Profile"
+            android:textColor="@color/colorTitle"
             android:textSize="24sp" />
 
         <Space
@@ -163,6 +169,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/shrikhand"
                 android:text="Email : "
+                android:textColor="@color/colorTitle"
                 android:textSize="14sp" />
 
             <TextView
@@ -181,7 +188,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/shrikhand"
-                android:text="User Name : " />
+                android:text="User Name : "
+                android:textColor="@color/colorTitle" />
 
             <TextView
                 android:id="@+id/partner_username"
@@ -199,7 +207,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/shrikhand"
-                android:text="Phone Number : " />
+                android:text="Phone Number : "
+                android:textColor="@color/colorTitle" />
 
             <TextView
                 android:id="@+id/partner_phoneNum"
@@ -217,7 +226,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/shrikhand"
-                android:text="Region : " />
+                android:text="Region : "
+                android:textColor="@color/colorTitle" />
 
             <TextView
                 android:id="@+id/partner_region"
@@ -235,7 +245,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/shrikhand"
-                android:text="Description : " />
+                android:text="Description : "
+                android:textColor="@color/colorTitle" />
 
             <TextView
                 android:id="@+id/partner_description"
@@ -249,7 +260,10 @@
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0C2340"
+        android:fontFamily="@font/shrikhand"
         android:text="back"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
