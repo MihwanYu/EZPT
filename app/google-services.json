@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846620291446",
+    "firebase_url": "https://signinup-e1254.firebaseio.com",
+    "project_id": "signinup-e1254",
+    "storage_bucket": "signinup-e1254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846620291446:android:c99b0669dcf70b491b4a57",
+        "android_client_info": {
+          "package_name": "com.example.ezpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846620291446-738vd0lliappkklqnr9lruf24r5vh20t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDODuEZQdHvDdEu-KyRFScCjvG7fcwfXIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846620291446-738vd0lliappkklqnr9lruf24r5vh20t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
